@@ -314,7 +314,7 @@ footer a:hover {
   font-size: 0.9rem;
   opacity: 0.6;
   /* padding-top: 1px; */
-  /* justify-content: center; */
+  justify-content: center;
   text-align: center;
 }
 
@@ -408,9 +408,9 @@ footer a:hover {
 .contato-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .contato {
