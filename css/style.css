@@ -1,7 +1,6 @@
 @import url(global.css);
 @import url(header.css);
-@import url(hero.css);
-@import url(offers.css);
+/* @import url(hero.css); */
 
 /* --- 1. VARIÁVEIS E RESET (Design System) --- */
 :root {
@@ -44,7 +43,7 @@ body {
 .text-center {
   width: 100%;
   background-color: var(--cor-secundaria);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .logo {
@@ -95,7 +94,7 @@ a {
 .container {
   max-width: var(--largura-container);
   margin: 0 auto;
-  padding: 0 0 50px 0;
+  padding: 0 0 25px 0;
 }
 
 .secao-destaque {
@@ -299,22 +298,23 @@ footer a:hover {
 
 .copyright {
   display: flex;
-  margin-top: 40px;
+  margin-top: 8px;
   font-size: 0.9rem;
   opacity: 0.6;
   border-top: 1px solid #333;
-  padding-top: 20px;
+  padding-top: 8px;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .texto-final {
   display: flex;
-  margin-top: 5px;
+  margin-top: 2px;
   font-size: 0.9rem;
   opacity: 0.6;
-  padding-top: 1px;
-  justify-content: center;
+  /* padding-top: 1px; */
+  /* justify-content: center; */
+  text-align: center;
 }
 
 /* =====================================================
@@ -409,7 +409,7 @@ footer a:hover {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .contato {
