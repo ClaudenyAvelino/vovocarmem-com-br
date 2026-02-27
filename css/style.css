@@ -77,7 +77,14 @@ h4 {
   font-weight: 400;
 }
 p {
+  padding-top: 5%;
   text-align: justify;
+}
+
+.ebook {
+  font-family: var(--fonte-texto);
+  font-size: 26px;
+  line-height: 1.2; /* melhora leitura */
 }
 
 img {
