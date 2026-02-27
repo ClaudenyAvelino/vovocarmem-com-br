@@ -16,7 +16,7 @@
   --fonte-script: "Qwigley", cursive;
 
   --largura-container: 1100px;
-  --espacamento-padrao: 80px;
+  --espacamento-padrao: 5px;
 }
 
 /* --- RESET GLOBAL --- */
@@ -43,7 +43,7 @@ body {
 .text-center {
   width: 100%;
   background-color: var(--cor-secundaria);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .logo {
@@ -94,13 +94,15 @@ a {
 .container {
   max-width: var(--largura-container);
   margin: 0 auto;
-  padding: 0 0 50px 0;
+  /* padding: 0 0 50px 0; */
+  padding: 0 0 60px 0; /* antes era 50px */
 }
 
 .secao-destaque {
   width: 100%;
   background-color: var(--cor-secundaria);
-  padding: 40px 0;
+  /* padding: 10px 0; */
+  padding: 5px 0; /* antes era 10px */
 }
 
 .text-center {
@@ -200,7 +202,7 @@ a {
 
 /* --- GRID DE CARDS --- */
 .conteudo {
-  padding: var(--espacamento-padrao) 0;
+  padding: 5px 0; /* antes era 10px */
 }
 
 .grid-cards {
