@@ -5,7 +5,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 38px 48px;
+  padding: 28px 38px;
   position: relative;
   top: 5px;
 }
