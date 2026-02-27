@@ -293,7 +293,7 @@ footer a:hover {
 .social-links a {
   display: flex;
   justify-content: center;
-  gap: 20px; /* espaçamento entre os links */
+  gap: 10px; /* espaçamento entre os links */
   margin: 10px 0;
 }
 
@@ -439,7 +439,7 @@ footer a:hover {
 }
 
 p {
-  padding-top: 15%;
+  padding-top: 5%;
   text-align: justify;
 }
 
@@ -488,7 +488,7 @@ p {
 .conteudo,
 .oferta,
 footer {
-  padding: 50px 20px;
+  padding: 30px 10px;
 }
 
 /* ---------- LOGO ---------- */
