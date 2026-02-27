@@ -94,7 +94,7 @@ a {
 .container {
   max-width: var(--largura-container);
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0 50px 0;
 }
 
 .secao-destaque {
@@ -304,6 +304,7 @@ footer a:hover {
   border-top: 1px solid #333;
   padding-top: 20px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .texto-final {
