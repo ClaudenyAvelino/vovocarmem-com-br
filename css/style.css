@@ -43,7 +43,7 @@ body {
 .text-center {
   width: 100%;
   background-color: var(--cor-secundaria);
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .logo {
@@ -94,7 +94,7 @@ a {
 .container {
   max-width: var(--largura-container);
   margin: 0 auto;
-  padding: 0 0 25px 0;
+  padding: 0 0 50px 0;
 }
 
 .secao-destaque {
@@ -409,7 +409,7 @@ footer a:hover {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 
 .contato {
