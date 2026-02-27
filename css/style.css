@@ -81,12 +81,6 @@ p {
   text-align: justify;
 }
 
-.ebook {
-  font-family: var(--fonte-texto);
-  font-size: 26px;
-  line-height: 1.2; /* melhora leitura */
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -442,6 +436,16 @@ footer a:hover {
 
 .hero-content p {
   font-size: 1rem;
+}
+
+p {
+  padding-top: 15%;
+  text-align: justify;
+}
+
+.ebook {
+  font-size: 28px;
+  line-height: 1.6; /* melhora leitura */
 }
 
 .hero-image {
