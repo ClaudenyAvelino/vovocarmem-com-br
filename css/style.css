@@ -608,8 +608,8 @@ footer {
   p {
     padding-top: 5%;
     text-align: justify;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 
   .grid-cards {
