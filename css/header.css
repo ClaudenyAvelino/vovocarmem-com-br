@@ -5,7 +5,11 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 38px 48px;
+  /* padding: 28px 38px; */
+  padding-top: 18px;
+  padding-bottom: 28px;
+  padding-left: 38px;
+  padding-right: 38px;
 
   position: relative;
   top: 15px;
@@ -89,8 +93,8 @@ nav {
   header {
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
   .logo {
     width: 260px;
@@ -112,7 +116,7 @@ nav {
   header {
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
