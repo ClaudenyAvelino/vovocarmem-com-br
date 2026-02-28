@@ -471,3 +471,20 @@ footer h4 {
     font-size: 1.4rem;
   }
 }
+
+/* =====================================================
+   14.1 Ajuste de padding horizontal em dispositivos móveis
+===================================================== */
+@media (max-width: 768px) {
+  .secao-destaque p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .secao-destaque p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
