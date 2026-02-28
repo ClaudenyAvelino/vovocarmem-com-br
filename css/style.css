@@ -251,7 +251,10 @@ a {
   font-size: 4rem;
   font-weight: 700;
   font-family: var(--fonte-titulo);
-  margin: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: block;
 }
 
@@ -451,7 +454,7 @@ p {
 }
 
 .ebook {
-  font-size: 22px;
+  font-size: 19px;
   line-height: 1.2; /* melhora leitura */
 }
 
@@ -536,6 +539,10 @@ footer {
     flex-wrap: wrap;
     margin-top: 10px;
   }
+  .ebook {
+    font-size: 19px;
+    line-height: 1.2; /* melhora leitura */
+  }
 }
 
 /* =====================================================
@@ -596,6 +603,20 @@ footer {
     gap: 5px; /* espaçamento entre os links */
     margin: 3px 0;
   }
+  .ebook {
+    font-size: 19px;
+    line-height: 1.2; /* melhora leitura */
+  }
+  .oferta .preco {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: var(--fonte-titulo);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+}
 }
 
 /* =====================================================
@@ -634,5 +655,15 @@ footer {
     justify-content: center;
     gap: 5px; /* espaçamento entre os links */
     margin: 3px 0;
+  }
+  .oferta .preco {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
   }
 }
