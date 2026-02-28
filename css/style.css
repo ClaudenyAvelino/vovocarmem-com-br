@@ -116,7 +116,11 @@ a {
   display: inline-block;
   background-color: var(--cor-secundaria);
   color: #fff;
-  padding: 16px 48px;
+  /* padding: 20px 48px; */
+  padding-top: 100px;
+  padding-bottom: 5px;
+  padding-left: 48px;
+  padding-right: 48px;
   border-radius: 50px;
   font-weight: 700;
   font-size: 1.1rem;
@@ -252,7 +256,7 @@ a {
   font-weight: 700;
   font-family: var(--fonte-titulo);
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
   display: block;
@@ -472,8 +476,11 @@ p {
 .btn {
   width: 100%;
   max-width: 320px;
-  padding: 14px 20px;
-  font-size: 1rem;
+  /* padding: 20px 20px; */
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* ---------- SOBRE ---------- */
@@ -543,6 +550,15 @@ footer {
     font-size: 19px;
     line-height: 1.2; /* melhora leitura */
   }
+  .btn {
+    width: 100%;
+    max-width: 320px;
+    /* padding: 20px 20px; */
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* =====================================================
@@ -556,6 +572,7 @@ footer {
   }
   p {
     padding-top: 5%;
+    padding-bottom: 5px;
     text-align: justify;
     padding-left: 25px;
     padding-right: 25px;
@@ -570,8 +587,17 @@ footer {
     height: 260px;
   }
 
-  .btn {
+  /* .btn {
     width: auto;
+  } */
+  .btn {
+    width: 100%;
+    max-width: 320px;
+    /* padding: 20px 20px; */
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .sobre-grid {
@@ -612,7 +638,7 @@ footer {
     font-weight: 700;
     font-family: var(--fonte-titulo);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
     display: block;
@@ -661,9 +687,18 @@ footer {
     font-weight: 700;
     font-family: var(--fonte-titulo);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
     display: block;
+  }
+  .btn {
+    width: 100%;
+    max-width: 320px;
+    /* padding: 20px 20px; */
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
